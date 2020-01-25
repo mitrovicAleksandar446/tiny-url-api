@@ -5,7 +5,7 @@
   "main": "./dist/app.js",
   "scripts": {
     "prod": "node ./dist/app.js",
-    "dev": "nodemon -verbose -e js,json,ts -i dist, node_modules"
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/app.ts"
   },
   "author": "Aleksandar Mitrovic",
   "license": "ISC",
@@ -20,8 +20,7 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-immutable": "^1.0.0",
     "eslint-plugin-import": "^2.20.0",
-    "nodemon": "^2.0.2",
-    "tsc-node": "0.0.3",
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.5"
   }
 }

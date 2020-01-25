@@ -1,8 +1,8 @@
-function somename() {
-  console.log('something');
+function someName() {
+  console.log('something2');
   console.log('aca');
 }
 
-somename();
+someName();
 
-const arr = [1, 2, 3];
+const arr = [1, 2, 3, 4];
