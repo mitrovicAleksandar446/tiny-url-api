@@ -9,7 +9,7 @@
   ```
 POST /short-it
 {
-    "url" : "http://google.com"
+     "url" : "http://google.com"
 }
 ```
 
