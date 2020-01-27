@@ -1,8 +1,3 @@
-function someName() {
-  console.log('something2');
-  console.log('aca');
-}
+import bootApp from './bootstrap';
 
-someName();
-
-const arr = [1, 2, 3, 4];
+bootApp();

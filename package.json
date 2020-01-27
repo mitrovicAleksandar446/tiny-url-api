@@ -4,15 +4,19 @@
   "description": "API to generate shortened URLs",
   "main": "./dist/app.js",
   "scripts": {
-    "prod": "node ./dist/app.js",
+    "prod": "tsc && node ./dist/app.js",
     "dev": "ts-node-dev --respawn --transpileOnly ./src/app.ts"
   },
   "author": "Aleksandar Mitrovic",
   "license": "ISC",
   "dependencies": {
-    "md5": "^2.2.1"
+    "dotenv": "^8.1.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.8.9"
   },
   "devDependencies": {
+    "@types/md5": "^2.1.33",
+    "@types/mongoose": "^5.5.43",
     "@types/node": "^13.5.0",
     "@typescript-eslint/eslint-plugin": "^2.17.0",
     "@typescript-eslint/parser": "^2.17.0",
