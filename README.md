@@ -1,5 +1,7 @@
 # Tiny URL
 
+## [Answers](TINYURL.md)
+
  ## Starting the app
   ``npm run dev``
   
